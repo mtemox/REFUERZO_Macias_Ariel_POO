@@ -15,7 +15,7 @@ public class Main {
         e1.mostrarInformacion();
         d1.mostrarInformacion();
         // Ingreso los datos faltantes del estudiante por teclado
-        System.out.println("\nInformacion faltante del estudiante:");
+        System.out.println("\nInformación faltante del estudiante:");
         System.out.print("Ingrese el número de cedula: ");
         String cedula = sc.nextLine();
         e1.setCedula(cedula);
@@ -23,7 +23,7 @@ public class Main {
         String direccion = sc.nextLine();
         e1.setDireccion(direccion);
         // Ingreso los datos faltantes del docente por teclado
-        System.out.println("\nInformacion faltante del docente:");
+        System.out.println("\nInformación faltante del docente:");
         System.out.print("Ingrese el número de cedula: ");
         String cedula2 = sc.nextLine();
         d1.setCedula(cedula2);
