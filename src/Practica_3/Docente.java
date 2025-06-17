@@ -17,4 +17,8 @@ public class Docente extends Persona {
         System.out.println("Dirección: " + getDireccion());
         System.out.println("Numero de materias a cargo: " + numMateriasACargo);
     }
+    // Metodo específico
+    public void rolDocente() {
+        System.out.println("\nHola! soy docente.");
+    }
 }

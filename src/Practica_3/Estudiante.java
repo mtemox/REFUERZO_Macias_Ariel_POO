@@ -20,4 +20,8 @@ public class Estudiante extends Persona {
         System.out.println("Carrera: " + carrera);
         System.out.println("Semestre: " + semestre);
     }
+    // Metodo específico
+    public void rolDocente() {
+        System.out.println("\nHola! soy estudiante.");
+    }
 }
